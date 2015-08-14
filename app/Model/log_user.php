@@ -14,14 +14,10 @@
 class log_user extends AppModel{
     //put your code here
     var $name = 'log_user';
-	 public $primaryKey = 'lg_id';
+	public $primaryKey = 'lg_id';
     public $useTable = 'log_user';
+	public $hasOne = 'news';
 	
-	public $hasMany = array(
-        'news' => array(
-            'className' => 'news',
-        )
-    );
     
     
 }

@@ -16,5 +16,16 @@ class news extends AppModel{
     var $name = 'news';
 	public $primaryKey = 'news_id';
     public $useTable = 'news';
-    public $hasOne = 'log_user';
+	public $belongsTo = array(
+        'log_user' => array(
+            'className' => 'log_user',
+            'foreignKey' => 'pb_log_user_lg_id'
+        )
+    );
+  
+  /*  public $hasMany = array(
+        'log_user' => array(
+            'className' => 'log_user',
+        )
+    );*/
 }

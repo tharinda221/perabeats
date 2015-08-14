@@ -37,11 +37,9 @@
               <div class="date_str"><?php echo date('M', strtotime($newses['news']['news_date_added'])) ?></div>
               <div class="timed"><?php echo date('g:i a', strtotime($newses['news']['news_date_added'])) ?></div></div>	
                 <div class="single_topic"><?php echo $newses['news']['news_topic'];  ?></div>
-                <div class="single_by">BY <span>Sandaruwan nanayakkara</span></div>
+                <div class="single_by">BY <span><?php echo $newses['log_user']['lg_fname'] ."  ".$newses['log_user']['lg_lastname'];  ?></span></div>
           </div>
   
-  
-        <p><?php echo "<a href=\"view/".$newses['news']['news_hash']."\">".$newses['news']['news_id']." ".$newses['news']['news_topic'] ; ?></a></p>
  
     <?php endforeach; ?>
         </div>
