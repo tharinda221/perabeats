@@ -1,0 +1,35 @@
+/* CSS Document */
+@font-face {
+    font-family: 'novecento_sans_demibold';
+    src: url('../webfonts/novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont.eot');
+    src: url('../webfonts/novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont.woff') format('woff'),
+         url('../webfonts/novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont.ttf') format('truetype'),
+         url('../webfonts/novecentosanswide_demibold_macroman/Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'novecento_sans_widemedium';
+    src: url('../webfonts/novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont.eot');
+    src: url('../webfonts/novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont.woff') format('woff'),
+         url('../webfonts/novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont.ttf') format('truetype'),
+         url('../webfonts/novecentosanswide_medium_macroman/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'novecento_sans_widelight';
+    src: url('../webfonts/novecentosanswide_light_macroman/Novecentosanswide-Light-webfont.eot');
+    src: url('../webfonts/novecentosanswide_light_macroman/Novecentosanswide-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/novecentosanswide_light_macroman/Novecentosanswide-Light-webfont.woff') format('woff'),
+         url('../webfonts/novecentosanswide_light_macroman/Novecentosanswide-Light-webfont.ttf') format('truetype'),
+         url('../webfonts/novecentosanswide_light_macroman/Novecentosanswide-Light-webfont.svg#novecento_sans_widelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

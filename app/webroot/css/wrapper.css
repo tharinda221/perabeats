@@ -1,0 +1,44 @@
+/* CSS Document */
+.wrapper {
+margin:-8px;overflow:hidden;margin-bottom:10px;
+}
+body{font-family:"novecento_sans_demibold";}
+.content {
+	width:980px;
+	margin:auto;
+	position:relative;
+	min-height:500px;overflow:hidden;
+}
+.date {
+	border:3px solid #012644;
+	height:60px;
+	text-align:center;
+	width:60px;
+	color:#012644;
+	font-size:28px;
+	position:relative;overflow:hidden;
+	float:left;font-family:"novecento_sans_widemedium";
+}
+.date .date_str {
+	font-family:"novecento_sans_demibold";
+	margin-top:-4px;font-size:14px;text-transform:uppercase;
+}.date .date_num {
+	margin-top:-4px;font-size:30px;text-transform:uppercase;
+}.date .timed {
+	font-family:"novecento_sans_demibold";
+	margin-top:-4px;font-size:14px;text-transform:lowercase;
+}
+.footer {
+	height:400px;margin:-8px;background:#012644;margin-top:60px;position:relative;overflow:hidden;
+}
+.footer .footer_content {
+	width:980px; margin:auto;overflow:hidden;color:#ffffff;
+}
+.footer .footer_content .ft_pane {float:left;width:320px;margin-top:10px; margin-left:5px;}
+.footer_content .ft_pane .ft_tp {font-size:36px;font-family:"novecento_sans_widemedium";}
+.txtFoot {width:290px;border-radius:4px;border: none;height:24px;}
+.footer_content .ft_pane .ft_desc{margin-top:20px;}
+.footer_content .ft_pane .ft_desc table tr {height:30px;}
+.btnReg{border:1px solid #ffffff;border-radius:2px;width:120px;background:#012644; color:#fff;height:36px;}
+.btnReg:hover{background:#fff; color:#012644;cursor:pointer}
+.ft_pane .ft_desc .ft_descprt {margin-bottom:10px;}

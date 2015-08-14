@@ -1,0 +1,58 @@
+@charset "utf-8";
+.nav {z-index:200;
+	height:60px;font-family:"novecento_sans_demibold";
+	background:#012644;
+	position:absolute;
+	width:100%;overflow:hidden;
+}
+.nav .nav_sect {
+	border-left:1px solid #ffffff;border-right:1px solid #ffffff;
+	height:60px;
+	float:left;color:#ffffff;font-size:24px;padding-top:16px;
+	padding-left:20px;padding-right:20px;
+}
+.nav .nav_sect .logo {}
+.nav_sect_selected{
+	float:left;color:#012644;font-size:24px;padding-top:16px;
+	padding-left:20px;padding-right:20px;background:#fff;height:40px; overflow:hidden;
+}
+.uni_sect{
+}
+.nav .uni_sel {
+	float:right;margin-top:8px;
+	width:60px;height:50px;
+}
+.nav .uni_sel div{
+	border-bottom:3px solid #ffffff; margin:8px 15px 8px 15px; 
+}
+.nav .uni_sel:hover{cursor:pointer;}
+.uni_list {
+	z-index:10;
+	padding-top:60px;
+	position:absolute;
+	right:-200px;color:#ffffff;
+	width:200px;background-color:#012644;
+}
+.uni_list .uni_sect {
+	font-size:14px;
+	padding:2px 10px 2px 10px;
+	border-left:3px solid #012644;
+	margin-bottom:8px;
+}
+.uni_list .uni_sect:hover {
+	cursor:pointer;
+	background:#3a6486;
+	border-left:3px solid #ffffff;
+}.nav .nav_sect:hover {
+	background:#ffffff;
+	color:#012644;
+}
+.nav .nav_sect:hover a {
+	color:#012644;
+}
+.nav .nav_sect a {
+	text-decoration:none;color:#ffffff;
+}
+.logo .lion {float:left;margin-right:5px;width:30px;}
+.logo .lion img{border: none;}
+.logo a{text-decoration: none;color:#012644}
