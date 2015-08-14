@@ -32,24 +32,21 @@
             
             <?php foreach ($news as $newses): ?>
   
-  	 <div class="single_header">
-            	 <div class="date"><div class="date_num"><?php echo date('d', strtotime($newses['news']['news_date_added'])) ?></div>
-              <div class="date_str"><?php echo date('M', strtotime($newses['news']['news_date_added'])) ?></div>
-              <div class="timed"><?php echo date('g:i a', strtotime($newses['news']['news_date_added'])) ?></div></div>	
-                <div class="single_topic"><?php echo $newses['news']['news_topic'];  ?></div>
-                <div class="single_by">BY <span><?php echo $newses['log_user']['lg_fname'] ."  ".$newses['log_user']['lg_lastname'];  ?></span></div>
-          </div>
+  <div class="single_header">
+     <div class="date"><div class="date_num"><?php echo date('d', strtotime($newses['news']['news_date_added'])) ?></div>
+     	<div class="date_str"><?php echo date('M', strtotime($newses['news']['news_date_added'])) ?></div>
+     	<div class="timed"><?php echo date('g:i a', strtotime($newses['news']['news_date_added'])) ?></div>
+     </div>	
+     <div class="single_topic"><?php echo $newses['news']['news_topic'];  ?></div>
+     <div class="single_by">BY <span><?php echo $newses['log_user']['lg_fname'] ."  ".$newses['log_user']['lg_lastname'];  ?></span></div>
+  </div>             
+     <div class="single_image"><img src="/perabeats/images/news/khan-collazo.jpg" width="970" height="434" alt=""/></div>	
+     <div class="single_desc"><?php echo $newses['news']['news_small_desc'];  ?></div>
+  
   
  
     <?php endforeach; ?>
         </div>
     </div>
-    <div class="content">
-
-        <div class="left_panel">Blog
-        </div>
-        <div class="right_panel">
-            <div class="mid_header">NEWS</div>
-        </div>
-    </div>
+   
 </div>
