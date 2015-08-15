@@ -40,7 +40,7 @@
      <div class="single_topic"><?php echo $newses['news']['news_topic'];  ?></div>
      <div class="single_by">BY <span><?php echo $newses['log_user']['lg_fname'] ."  ".$newses['log_user']['lg_lastname'];  ?></span></div>
   </div>             
-     <div class="single_image"><img src="/perabeats/images/news/khan-collazo.jpg" width="970" height="434" alt=""/></div>	
+     <div class="single_image"><a href="News/view/<?php echo $newses['news']['news_hash']?>"><img src="/perabeats/images/news/khan-collazo.jpg" width="970" height="434" alt=""/></a></div>	
      <div class="single_desc"><?php echo $newses['news']['news_small_desc'];  ?></div>
   
   
