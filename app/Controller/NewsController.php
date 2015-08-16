@@ -28,12 +28,16 @@ class NewsController extends AppController {
             'footer.css',
             'nav.css'
         ));
-        $this->set('news', $this->news->find('all'));
+        $this->set('news', $this->news->find('all', array(
+        'order' => 'news.news_id DESC'
+    )));
     }
 
     function find_news() {
 
-        return $this->news->find('all');
+        return $this->news->find('all', array(
+        'order' => 'news.news_id DESC'
+    ));
     }
 
     public function view($sid) {

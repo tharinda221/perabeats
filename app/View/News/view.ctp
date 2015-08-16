@@ -35,7 +35,7 @@
                 <div class="single_topic"><?php echo $news['news']['news_topic'];  ?></div>
                 <div class="single_by">BY <span><?php echo $news['log_user']['lg_fname'];  ?></span></div>
           </div>
-            <div class="single_image"><img src="/perabeats/images/news/khan-collazo.jpg" width="970" height="434" alt=""/></div>
+            <div class="single_image"><img src="/perabeats/images/news/<?php echo $news['news']['news_main_img'];  ?>"  alt=""/></div>
    	  </div>
 	</div>
     <div class="content">
