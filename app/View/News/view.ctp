@@ -33,7 +33,7 @@
               <div class="date_str"><?php echo date('M', strtotime($news['news']['news_date_added'])) ?></div>
               <div class="timed"><?php echo date('g:i a', strtotime($news['news']['news_date_added'])) ?></div></div>	
                 <div class="single_topic"><?php echo $news['news']['news_topic'];  ?></div>
-                <div class="single_by">BY <span><?php echo $news['log_user']['lg_fname'];  ?></span></div>
+                <div class="single_by">BY <span><?php echo ['lo$newsg_user']['lg_fname'];  ?></span></div>
           </div>
             <div class="single_image"><img src="/perabeats/images/news/<?php echo $news['news']['news_main_img'];  ?>"  alt=""/></div>
    	  </div>

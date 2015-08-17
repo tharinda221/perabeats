@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'zegates',
+		'password' => '',
 		'database' => 'perabeats',
 		'prefix' => 'pb_',
 		'encoding' => 'utf8',
